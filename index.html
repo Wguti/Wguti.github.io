@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Proyecto_CV</title>
+</head>
+
+<body>
+    <header>
+        <section class="perfil_w">
+            <div class="nombre">
+                <h1 id="persona"><span>Werner Gutiérrez</span></h1>
+                <h2 id="persona2">Desarrollador Web Front-End</h2>
+            </div>
+            <div>
+            <img  class="foto" src="./img/fotoW.jpg" alt="imagen de perfil de Werner Gutiérrez" height="160px" width="160px" >
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!--SECCIÓN DE EXPERIENCIA LABORAL-->
+        <section class="titulo">
+            <h3 class="laboral">EXPERIENCIA LABORAL</h3>
+            <ul class="experiencias">
+                <li class="experiencia">
+                    <p class="date">2017 - 2021</p>
+                    <h4>Gerente Administrativo</h4>
+                    <h5>Mundo Cartográfico S.R.L</h5>
+                    <button type="button" id="boton_ocultar">Ocultar</button>
+                    <button type="button" id="boton_mostrar">Mostrar</button>
+                     <div >
+                     <p id="demo" class="descripcion">Profesional del área administrativa, he desempeñando funciones en el sector
+                            de compras: control y pago de proveedores, ingreso de facturas a través del sistema informático
+                            Tango, emisión de órdenes de compra, órdenes de pago, imputaciones de las cuentas corrientes,
+                            Tesorería, emisión de cheques, proyección y planificación presupuestaria de la empresa, control
+                            de Bancos, Sistema Tango módulos de compra, stock, tesorería, control de personal entre otras
+                            funciones y conocimientos.</p>
+                    </div>
+                    
+                </li>
+                <li class="experiencia">
+                    <p class="date">2015 - 2016</p>
+                    <h4>Analista QA Ssr.</h4>
+                    <h5>Consultores y Sistemas 4S, C.A.</h5>
+                    <p class="descripcion"> Generar Casos de Prueba, en TestLink, realizar pruebas funcionales del
+                        Sistema del Registro Civil de Venezuela (SARC), específicamente en los módulos de Atención al
+                        Ciudadano, Nacimiento y Matrimonio, reportar los incidentes por medio de JIRA de Atlassian, se
+                        utilizó la metodología ágil SCRUM.
+                    </p>
+                </li>
+                <li class="experiencia">
+                    <p class="date">2014 - 2015</p>
+                    <h4>Tester QA Junior</h4>
+                    <h5>ST Accounting Services</h5>
+                    <p class="descripcion"> Realizar las pruebas funcionales del sistema de gestión de solicitudes para
+                        declaración de impuestos (WEB), validar el registro de datos de los solicitantes por medio de
+                        las página de consulta del sistema, verificar que el sistema no acepte formatos inválidos.
+                        verificar que el sistema tuviese un comportamiento adecuado correspondiente a cada perfil.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <!--SECCIÓN DE HABILIDADES Y APTITUDES-->
+        <section id="herramientas">
+            <h3 class="laboral">HABILIDADES</h3>
+            <ul class= "habilidades">
+                <li>
+                    Html & Css
+                    <span>80%</span>
+                </li>
+                <li>
+                    Tester de Software
+                    <span>80%</span>
+                </li>
+                <li>JavaScript
+                <span>60%</span>
+                </li>
+                <li>Ofimatica
+                <span>80%</span>
+                </li>
+            </ul>
+
+            <h3 class="laboral">APTITUDES</h3>
+            <ul class="habilidades">
+                <li>Trabajo en Equipo</li>
+                <li>Proactivo</li>
+                <li>Analítico</li>
+            </ul>
+        </section>
+    </main>
+
+    <!--INFORMACIÓN DE CONTACTO-->
+    <aside>
+        <section class="contacto">
+            <h3 class="color-item">CONTACTO</h3>
+            <ul>
+                <li><img src="./img/telefono.png" alt="Mi Telefono Personal" height="30px" width="30px">
+                    <a class="iconos" href="#">2749-9423</a>
+                </li>
+                
+                <li ><img src="./img/direccion.png" alt="Mi Direccion de residencia" height="30px" width="30px">
+                    <a class="iconos" href="">Gorostiaga 2329, 5A, CABA, Argentina</a> 
+                </li>
+                
+                <li><img src="./img/email.png" alt="Mi Correo Electrónico" height="30px" width="30px">
+                    <a class="iconos" href="email">wl.gutierrez@gmail.com</a>
+                </li>
+                
+                <li><img src="./img/linkedin.png" alt="Mi perfil de Linkedin" height="30px" width="30pxS">
+                    <a class="iconos" href="Linkedin">https://www.linkedin.com/feed/</a>
+                </li>
+            </ul>
+        </section>
+        <div>
+            <br>
+        </div>
+        <section class="educacion">
+            <h3 class="color-item">EDUCACIÓN</h3>
+            <ul>
+                <li class="licenciado">
+                    <p>Licenciado en Administración</p>
+                    <p>Universidad Nacional Experimental "Simón Rodríguez"</p>
+                </li>
+
+                <li class="tecnico">
+                    <p>Técnico Superior Universitario en Administración</p>
+                    <p>Instituto Universitario de Nuevas Profesiones</p>
+                </li>
+            </ul>
+        </section>
+        <div>
+            <br>
+        </div>
+
+        <section class="referencia">
+            <h3 class="color-item">REFERENCIAS</h3>
+            <ul>
+                <li class="referencia_1"> <p>Angel Porras</p> 
+                    <img src="./img/telefono.png" alt="Mi Telefono Personal" height="30px" width="30px">
+                    <a class="iconos" href="#">5411-1425</a>
+                    
+                </li>
+                <li class="referencia_2"> <p>Daniel Ferrusi</p> 
+                    <img src="./img/telefono.png" alt="Mi Telefono Personal" height="30px" width="30px">
+                    <a class="iconos" href="#">3699-8775</a>
+                </li>
+            </ul>
+        </section>
+
+    </aside>
+    <script src="assets/js/proyecto.js"></script>
+</body>
+
+</html>
